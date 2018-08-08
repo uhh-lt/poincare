@@ -1,6 +1,6 @@
 # Melting Pot
 
-*Melting pot* is a compound which is compositional and non-compositional at the same time depending on the contxt. In this project, we explore use of sense representations to improve detection of compositional nominal compounds, like this one.
+*Melting pot* is a compound which is compositional and non-compositional at the same time depending on the context. In this project, we explore use of sense representations to improve detection of compositional nominal compounds, like this one.
 
 ## Results
 
