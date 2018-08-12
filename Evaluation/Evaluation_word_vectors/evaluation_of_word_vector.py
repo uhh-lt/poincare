@@ -5,19 +5,28 @@ import scipy.stats
 import scipy
 from sklearn.metrics.pairwise import cosine_similarity
 
+import argparse
+
+parser = argparse.ArgumentParser(description='Evaluation of word vectors for nominal compound detection')
+parser.add_argument('dataset_file', help='path to dataset file')
+parser.add_argument('vector_file', help='path to word vector file')
+parser.add_argument('output_file', help='path to output file')
+
+args = parser.parse_args()
+
 dict_vec={}
 dict_dataset={}
 list_raw=[]
 dict_human_score={}
 
-file2=open(sys.argv[2],"r")
+file2=open(args.vector_file,"r")
 lines=file2.readlines()
 for l in lines:
         sl=l[:-2].split(" ")
         dict_dataset[sl[0]]=0
 
 
-file1=open(sys.argv[1],"r")
+file1=open(args.dataset_file,"r")
 lines=file1.readlines()
 for l in lines:
 	sl=l[:-1].split(" ")
@@ -29,7 +38,7 @@ for l in lines:
 	dict_dataset[sl1[0]]=1
 	dict_dataset[sl1[1]]=1
 
-file2=open(sys.argv[2],"r")
+file2=open(args.vector_file,"r")
 lines=file2.readlines()
 for l in lines:
 	sl=l[:-2].split(" ")
@@ -80,7 +89,7 @@ for item in list_raw:
 	dict_score[item]=abs(result)
 
 
-output_file=open(sys.argv[3],"w")
+output_file=open(args.output_file,"w")
 list_score=[]
 list_human_score=[]
 for item in list_raw:
