@@ -9,5 +9,5 @@ Sample run :
 
 Format of Output_file:
 
-Each line except last line -) (word)(,)(value of our proposed score metric incorporating senses)(,)(human score) ;  
-last line -) (spearman's rank correlation coefficient)(,)(p-value) 
+Each line except last line -: (word)(,)(value of our proposed score metric incorporating senses)(,)(human score) ;  
+last line -: (spearman's rank correlation coefficient)(,)(p-value) 
