@@ -20,4 +20,9 @@ Replications of the original experiment and the datasets:
 - Farahmand: https://docs.google.com/spreadsheets/d/10F-oVT50lZqMGBj1QU2afjqeqmvokRQQVdL5bWCqhmw/edit#gid=0 
 
 
+## Word and Sense Embedddings
+
+http://ltdata1.informatik.uni-hamburg.de/melting_pot/
+
+
 
