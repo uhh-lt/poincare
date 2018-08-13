@@ -1,8 +1,8 @@
 Instruction to execute:
- python evaluation_of_sense_vectors_max_function.py  (path to processed dataset file) (path to sense vector file) (path to output file) (function)
+ python evaluation_of_sense_vectors.py  (path to processed dataset file) (path to sense vector file) (path to output file) (function)
 
 Sample run :
- python evaluation_of_sense_vectors_max_function.py Dataset_processed/Reddy.txt Sample_vectors/Sense_vectors/cbow_sensegram_retrofitted_version_2_sense_vectors Output_file max
+ python evaluation_of_sense_vectors.py Dataset_processed/Reddy.txt Sample_vectors/Sense_vectors/cbow_sensegram_retrofitted_version_2_sense_vectors Output_file max
 
 
 
