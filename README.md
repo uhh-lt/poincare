@@ -4,7 +4,9 @@
 
 ## Results
 
-Using sense/adagram vs the original model as presented in http://www.aclweb.org/anthology/P16-1187: 
+Using sense/adagram vs the original model as presented in http://www.aclweb.org/anthology/P16-1187:
+https://docs.google.com/spreadsheets/d/1_fBfpgFLCOD6c7e39v-TSSjR8ThSmAaHsXdJg3yTCqA/edit?usp=sharing
+
 https://docs.google.com/document/d/1u7SZOGzpy0YPNUBej9IteQMM9ANutgZ4qyQLTD1cjNs/edit 
 
 - some improvement based on sensegram currently observed 
